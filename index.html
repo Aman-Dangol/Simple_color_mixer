@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>color  mixer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="result" id="result"></div>
+    <div class="red">
+        <p>Red</p>
+       0 <input type="range" min="0 "max="255" value="255" id="redValue" oninput="redChange(value)">255 <br>
+       <output id="redOut">255</output>
+    </div>
+    <div class="blue">
+        <P>Blue</P>
+        0<input type="range" min="0" max="255" value="255" id="blueValue" oninput="blueChange(value)">255<br>
+        <output id="blueOut">255</output>
+    </div>
+    <div class="Green">
+        <p>Green</p>
+        0 <input type="range" min="0" max="255" value="255" id="greenValue" oninput="greenChange(value)"> 255 <br>
+        <output id="greenOut">255</output>
+    </div>    
+</body>
+<script src="index.js"></script>
+</html>
