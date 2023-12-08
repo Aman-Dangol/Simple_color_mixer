@@ -2,7 +2,6 @@ body {
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   text-align: center;
-  background: linear-gradient(white, black);
   height: 100vh;
 }
 
@@ -10,10 +9,9 @@ body {
   display: inline-block;
   padding: 20px;
   color: white;
-  background: linear-gradient(red 40%, blue, green);
+  background: linear-gradient(180deg, red 39% , blue 68%, green 77%);
   border-radius: 20px;
 }
-
 .result {
   display: inline-block;
   background-color: black;
