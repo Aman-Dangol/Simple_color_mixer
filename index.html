@@ -14,14 +14,14 @@
   <body>
     <h1>Color Mixer</h1>
     <div class="container">
-      <div class="result" id="result">(0,0,0)</div>
+      <div class="result" id="result"></div>
       <div class="red">
         <p>Red</p>
         0
         <input
           type="range"
           min="0 "
-          max="255"
+          max="225"
           value="0"
           id="redValue"
           oninput="redChange(value)"
@@ -51,7 +51,7 @@
           id="greenValue"
           oninput="greenChange(value)"
         />
-        255 <br />
+        255 <br/>
         <output id="greenOut">0</output>
       </div>
     </div>

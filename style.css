@@ -3,15 +3,19 @@ body {
   font-family: "Poppins", sans-serif;
   text-align: center;
   height: 100vh;
+  background-color: black;
+  color: white;
 }
 
 .container {
   display: inline-block;
   padding: 20px;
   color: white;
-  background: linear-gradient(180deg, red 39% , blue 68%, green 77%);
+  background: linear-gradient(180deg, red 39%, blue 68%, #00ff00 77%);
   border-radius: 20px;
+  border: 2px solid black;
 }
+
 .result {
   display: inline-block;
   background-color: black;
